@@ -8,7 +8,7 @@ Garantir que uma classe só tenha uma única instância e criar um ponto de aces
 ## Receita para tornar uma classe Singleton:
  * Define-se a classe como final.
  * O método construtor passará a ser privado.
- * Define-se uma variável de classe (static) que usualmente denominamos de instance do tipo da classe. E inicializa-se diretamente quando a declaração da variável.
+ * Define-se uma variável de classe (static) que usualmente denominamos de instance do tipo da classe. 
  * Define-se o método getInstance que retorna essa instancia e a instancia se ela for null.
 
 ```java
