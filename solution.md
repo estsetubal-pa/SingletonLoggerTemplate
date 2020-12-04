@@ -27,7 +27,7 @@ public class Gammer {
     public Gammer(String name) {
         this.name=name;
         this.countGames = 0;
-        Logger.getInstance().writeToLog("new Gammer - " + name);
+        Logger.getInstance().writeToLog("new Gamer - " + name);
 }
     public void incGamesCount() {
         this.countGames++;
@@ -37,13 +37,13 @@ public class Gammer {
 
 public class Game {
 
-    private Gammer gammer;
+    private Gammer gamer;
 
     public Game() {
     }
 
-    public void start(Gammer gammer) {
-        this.gammer = gammer;
+    public void start(Gammer gamer) {
+        this.gamer = gamer;
         Logger.getInstance().writeToLog("game start");
 
     }

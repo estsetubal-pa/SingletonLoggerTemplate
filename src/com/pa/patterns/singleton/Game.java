@@ -11,15 +11,16 @@ package com.pa.patterns.singleton;
  */
 public class Game {
 
-    private Gammer gammer;
+    private Gamer gamer;
     private int total;
 
     public Game() {
     }
 
-    public void start(Gammer gammer) {
-        this.gammer = gammer;
+    public void start(Gamer gamer) {
+        this.gamer = gamer;
         this.total=0;
+        gamer.incGamesCount();
         System.out.println("game start");
 
     }

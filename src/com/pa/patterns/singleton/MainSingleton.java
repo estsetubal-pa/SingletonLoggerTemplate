@@ -13,12 +13,12 @@ public class MainSingleton {
 
     public static void main(String[] args) {
 
-        Gammer player1 = new Gammer("ana");
+        Gamer player1 = new Gamer("ana");
         Game game = new Game();
         game.start(player1);
         game.play(3);
         game.play(5);
-        Gammer player2 = new Gammer("pedro");
+        Gamer player2 = new Gamer("pedro");
         game.start(player2);
     
     }

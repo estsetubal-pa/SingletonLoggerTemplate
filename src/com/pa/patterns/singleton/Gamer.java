@@ -11,19 +11,19 @@ import java.sql.SQLOutput;
  *
  * @author patricia.macedo
  */
-public class Gammer {
+public class Gamer {
 
     private String name;
     private int countGames;
 
 
-    public Gammer(String name) {
+    public Gamer(String name) {
         this.name=name;
         this.countGames = 0;
-        System.out.println("new Gammer - " + name);
+        System.out.println("new Gamer - " + name);
 }
     public void incGamesCount() {
         this.countGames++;
-        System.out.println("Gammer " + name + " another game ");
+        System.out.println("Gamer " + name + " another game ");
     }
 }
